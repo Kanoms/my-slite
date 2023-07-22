@@ -2,7 +2,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        kBlue: "#176AE5",
+        kDark: "#2F2F30",
+        kGrey: "#98999A",
+        kPink: "#EEBACB",
+        kOrange: "#F67748",
+      },
+    },
   },
   plugins: [],
 };
