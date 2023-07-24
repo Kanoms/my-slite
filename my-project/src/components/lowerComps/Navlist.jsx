@@ -19,7 +19,7 @@ const Navlist = ({ className }) => {
   );
 };
 
-Navlist.PropTypes = {
+Navlist.propTypes = {
   className: PropTypes.string.isRequired,
 };
 

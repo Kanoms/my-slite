@@ -24,11 +24,19 @@
   .sechead {
     @apply text-lg font-medium text-center;
   }
+
+  .kpad {
+    @apply p-10 pt-14 bg-white rounded-[10px] shadow-lg flex flex-col gap-4 h-full sm:h-[346px] relative;
+  }
+
+  .special {
+    @apply text-sm font-medium p-1 text-center block mb-2;
+  }
 }
 
 body {
   background-color: #2f2f30;
   font-family: "Inter", sans-serif;
   color: #2f2f30;
-  overflow-x: auto;
+  overflow-x: hidden;
 }

@@ -31,7 +31,7 @@ const Header = () => {
     <>
       <NavBar />
       <div className="bg-kBG kflex2 flex-col px-2 py-3">
-        <h1 className="kflex2 text-2xl sm:text-3xl lg:text-[60px] lg:leading-[80px] font-medium gap-2">
+        <h1 className="kflex2 text-2xl sm:text-3xl md:text-5xl lg:text-[60px] lg:leading-[80px] font-medium gap-2">
           <span>Bring</span>
           <span className="relative">
             clarity

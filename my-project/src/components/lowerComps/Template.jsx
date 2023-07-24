@@ -9,12 +9,12 @@ const Template = ({ title, image, className }) => {
         className={`absolute w-[105px] h-[103.5px] rounded-full bottom-8 ${className}`}
       ></div>
 
-      <img className="z-20" src={image} alt="" />
+      <img className="z-20 w-[112px] h-[110.391px]" src={image} alt="" />
     </div>
   );
 };
 
-Template.prototype = {
+Template.propTypes = {
   title: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
