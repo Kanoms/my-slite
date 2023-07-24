@@ -9,6 +9,11 @@ export default {
         kGrey: "#98999A",
         kPink: "#EEBACB",
         kOrange: "#F67748",
+        kBG: "#F9EFE4",
+      },
+
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
       },
     },
   },
