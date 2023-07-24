@@ -13,7 +13,7 @@ const Footlist = (props) => {
   }
 
   return (
-    <ul className="flex flex-col items-center text-center text-xs sm:text-left sm:items-start gap-[11.8px] [&>.xshidden]:hidden sm:[&>li]:flex">
+    <ul className="flex flex-col items-center text-center text-xs sm:text-left sm:items-start gap-[11.8px] [&>.xshidden]:hidden sm:[&>.xshidden]:flex sm:[&>li]:flex">
       {items}
     </ul>
   );
