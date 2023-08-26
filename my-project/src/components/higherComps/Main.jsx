@@ -7,7 +7,7 @@ import { BsFillPlayFill } from "react-icons/bs";
 const Main = () => {
   return (
     <main className="bg-kBG">
-      <section className="px-2 lg:px-20 py-10 kflex2 flex-col">
+      <section id="products" className="px-2 lg:px-20 py-10 kflex2 flex-col">
         <h2 className="text-2xl sm:text-3xl md:text-5xl text-center">
           A home for all of your knowledge.
         </h2>
@@ -27,7 +27,7 @@ const Main = () => {
         </div>
       </section>
 
-      <section className="py-[200px] kflex2 flex-col">
+      <section id="templates" className="py-[200px] kflex2 flex-col">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium mb-4 text-center">
           Beat the blank canvas with Templates
         </h2>
@@ -140,7 +140,7 @@ const Main = () => {
         </div>
       </section>
 
-      <section>
+      <section id="pricing">
         <div className="kflex2">
           <div className="w-[1040px] py-[60px] flex flex-col text-center lg:text-left lg:grid lg:grid-cols-2 gap-[60px]">
             <div>
@@ -198,7 +198,7 @@ const Main = () => {
         </div>
       </section>
 
-      <section>
+      <section id="blog">
         <div className="kflex2 flex-col pt-48 pb-20 px-2 lg:px-20 gap-9">
           <h2 className="text-2xl sm:text-3xl md:text-[42px] text-center">
             What happy teams have to say.
@@ -380,7 +380,7 @@ const Main = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section id="signin">
         <div className="pt-20 pb-32 kflex2 flex-col gap-7">
           <h2 className="text-2xl sm:text-3xl md:text-[42px] text-center font-medium">
             Teams with clarity are teams that thrive.

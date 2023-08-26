@@ -20,7 +20,7 @@ const NavBar = () => {
         <Navlist
           className={`dropdown-menu ${
             isDropdownOpen ? "flex" : "hidden"
-          } flex-col gap-5 absolute bg-nGrey rounded-2xl px-3 py-2`}
+          } flex-col gap-5 absolute bg-white bg-nGrey rounded-2xl px-3 py-2`}
         />
       </div>
 
@@ -43,7 +43,11 @@ const NavBar = () => {
         <Navlist className="hidden lg:kflex gap-9" />
 
         <div>
-          <span>Sigin in</span>
+          <span>
+            <a className="hover:underline transition-[0.3s]" href="#signin">
+              Sigin in
+            </a>
+          </span>
         </div>
 
         <Buttons className="tpbtn hidden md:flex" text="Request a demo" />

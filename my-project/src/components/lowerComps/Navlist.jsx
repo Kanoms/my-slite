@@ -3,16 +3,16 @@ import PropTypes from "prop-types";
 const Navlist = ({ className }) => {
   return (
     <ul className={`${className}`}>
-      <a href="">
+      <a className="hover:underline transition-[0.3s]" href="#products">
         <li className="mr-4">Products</li>
       </a>
-      <a href="">
+      <a className="hover:underline transition-[0.3s]" href="#templates">
         <li>Templates</li>
       </a>
-      <a href="">
+      <a className="hover:underline transition-[0.3s]" href="#pricing">
         <li>Pricing</li>
       </a>
-      <a href="">
+      <a className="hover:underline transition-[0.3s]" href="#blog">
         <li>Blog</li>
       </a>
     </ul>
